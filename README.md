@@ -1,4 +1,3 @@
-```markdown
 # Collab-Projects
 
 ## Self-Driving Car Using Udacity's Car Simulator and Deep Neural Networks
@@ -46,4 +45,3 @@
 - Hyperparameter tuning is performed to find the optimal number of neighbors for the KNN algorithm.
 - Cross-validation techniques are employed to assess the models' performance and generalization ability.
 - **Project link:** [Dropout Prediction Project](https://colab.research.google.com/drive/1w2uQdXLjNh4inV-eLH1PmpjHs_ZGwmCH?usp=sharing)
-```
