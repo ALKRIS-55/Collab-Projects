@@ -25,22 +25,22 @@
 
 ## Dropout Prediction
 **Overview**
-**Loading and Understanding the Data:**
+-**Loading and Understanding the Data:**
 - The dataset is loaded using pandas, and its basic structure is examined.
 - Information about the columns, their data types, and non-null counts is obtained.
 - The count of missing values in each column is calculated and found to be zero.
-**Data Preprocessing:**
+-**Data Preprocessing:**
 - The target variable, initially represented as 'Graduate', 'Dropout', and 'Enrolled', is transformed into numerical labels (0, 1, 2) for classification purposes.
 - Histograms are generated to visualize the distributions of numeric features.
-**Feature Selection and Correlation Analysis:**
+-**Feature Selection and Correlation Analysis:**
 - Correlation coefficients between features and the target variable are calculated.
 - The most correlated features with the target variable are identified for further analysis.
-**Scaling the Dataset:**
+-**Scaling the Dataset:**
 - The dataset is standardized using the StandardScaler to bring all features to the same scale, which is a common preprocessing step in many machine learning algorithms.
-**Splitting the Dataset:**
+-**Splitting the Dataset:**
 - The dataset is split into training, validation, and test sets using train_test_split.
 - The stratify parameter is used to maintain the distribution of the target variable in each split.
-**Model Building and Evaluation:**
+-**Model Building and Evaluation:**
 - Various machine learning models are trained and evaluated, including K-Nearest Neighbors (KNN).
 - Hyperparameter tuning is performed to find the optimal number of neighbors for the KNN algorithm.
 - Cross-validation techniques are employed to assess the models' performance and generalization ability.
