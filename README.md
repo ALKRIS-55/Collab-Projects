@@ -16,11 +16,6 @@
 - **Data Cleaning:** Dropped NaN values, split into train and test sets.
 - **Text Preprocessing:** Removed punctuation, converted to lowercase, and applied stemming to headlines.
 - **Modeling:** Created embeddings of new headline to capture semantic meaning.
-- **Algorithms:**
-  - Logistic Regression: Accuracy 85.98%, Precision 0.87, Recall 0.85.
-  - Random Forest: Accuracy 84.39%, Precision 0.84, Recall 0.86.
-  - Naive Bayes: Accuracy 83.86%, Precision 0.85, Recall 0.83.
-- **Evaluation:** Confusion matrices and heatmaps for each model.
 - **Project link:** [Sentiment Analysis Project](https://colab.research.google.com/drive/1ipkMaSJcg_lpyxG6JuL3ggV9KW-nfgZI?usp=sharing)
 
 ## Dropout Prediction
